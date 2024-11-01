@@ -85,7 +85,8 @@ func saveImage(input <-chan Job) <-chan bool {
 
 func main() {
 
-	imagePaths := []string{"images/image5.jpeg",
+	imagePaths := []string{
+		"images/image5.jpeg",
 		"images/image6.jpeg",
 		"images/image7.jpeg",
 		"images/image8.jpeg",

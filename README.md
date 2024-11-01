@@ -55,9 +55,10 @@ Assuming all images are found, the the modified images will be generated in the 
 4 of 4 images successfully processed
 ```
 
-### Original Program
-
 ### Error Checking
+The function *isValidImagePath* was created to ensure that all specified images in main.go contain the ccorrect syntax of a /images prefix and .jpeg suffix.
+
+A counter was also added to the original program so that the user is able to see how many images were successfully processed.
 
 ### Chosen Images
 The original images from codeHeim's project were kept and 4 images of my choosing were added from [unsplash](https://unsplash.com/s/photos/jpeg) and named image5,image6,image7,image8, respectively.
@@ -65,8 +66,17 @@ The original images from codeHeim's project were kept and 4 images of my choosin
 Higher-resolution photos were chosen to demonstrate the potentail savings of of utilizing go routines and channels.  
 
 ### Unit Testing
+Unit tests were created to test various functions within the program. They can be found in main_test.go.
+
 
 ### Benchmarking Concurrent Processes vs Non-Concurrent Processes
+Go's Standard "time" package was used to benchmark processing speed difference between concurrent and non-concurrent execution.
+
+| Concurrent Process (s) | Non-Concurrent Process (s) | Difference (s) |
+|----------|----------|----------|
+| 2.92    | 3.45   | 0.53   |
+
+Based off benchmarking results, concurrent processing for this application resulted in ~15% faster compared to non-concurrent processing.
 
 
 ### Changes to Resizing Helper Function

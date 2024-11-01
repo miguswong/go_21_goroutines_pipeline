@@ -1,13 +1,15 @@
 # MSDS 431 Week 6 Assignment: Data Pipelines with Concurrency
 
-#Original README
+# Original README
 [Episode link](https://www.codeheim.io/courses/Episode-21-Concurrency-in-Go-Pipeline-Pattern-65c3ca14e4b0628a4e002201)
 
 Requires Golang 1.20 or higher.
 
-#Assignemnt Description
+# Assignment Description
 
-Amrit Singh (CODEHEIMLinks to an external site.) offers an example of a Go image processing pipeline with concurrency. He provides a GitHubLinks to an external site. code repository and video tutorialLinks to an external site.. Let's replicate his work using image files that we select.
+Amrit Singh [(CODEHEIML)](https://www.codeheim.io/) offers an example of a Go image processing pipeline with concurrency. He provides a GitHubLinks to an external site. code repository and [video tutorial](https://www.youtube.com/watch?v=8Rn8yOQH62k). Let's replicate his work using image files that we select.
+
+[![codeHein Pipeline Pattern](https://img.youtube.com/vi/Y8Rn8yOQH62k/0.jpg)](https://www.youtube.com/watch?v=8Rn8yOQH62k)
 
 Clone the GitHub repository for image processing. 
 Build and run the program in its original form.
